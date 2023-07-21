@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: linear-gradient(to right, #de45d7, #9258f5);
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.barra-navegacion, main {
+    background-color: #20717879;
+}
+
+.barra-navegacion a {
+    margin: 0.25em;
+    padding: 0.25em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.barra-navegacion a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+
+.contenedor-proyectos article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 30%;
+    margin: 1%;
+    /* padding: 0.5em; */
+    box-sizing: border-box;
+    border: 1px solid #fa5a4e;
+    border-radius: 0.5em;
+    /* background-color: #de45d7; */
+    color: #fff;
+}
+
+.contenedor-proyectos article h3, .contenedor-proyectos article p {
+    padding: 0.25em;
+}
+
+.contenedor-proyectos article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.contenedor-proyectos article p {
+    border-bottom: 1px solid #fa5a4e;
+}
+
+main {
+    margin: 1em 10%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.proyectos {
+    border-color: #fa5a4e;
+    border-width: 2px;
+    border-style: solid none;
+}
+
+.titulo h1, .proyectos h2 {
+    padding: 1em 0;
+    color: #fff;
+    text-align: center;
+}
+
+/**/
+.contenedor-paleta {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.contenedor-paleta article {
+    width: 50px;
+    height: 50px;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
+
+#color-1 {
+    background-color: #207178;
+}
+#color-2 {
+    background-color: #fa5a4e;
+}
+#color-3 {
+    background-color: #9258f5;
+}
+#color-4 {
+    background-color: #de45d7;
+}
+/**/
