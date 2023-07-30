@@ -1,0 +1,42 @@
+.alreves {
+    flex-direction: row-reverse;
+}
+
+.contenedor-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    background-color: #20717879;;
+}    
+
+.contenedor-contenido img {
+    max-height: 350px;
+}
+
+.contenedor-contenido p {
+    margin: 0 10%;
+    font-size: 110%;
+    color: #fff;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
+    font-size: 110%;
+}
+
+.enlaces a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    margin: 2em 0;
+    font-size: 110%;
+}
