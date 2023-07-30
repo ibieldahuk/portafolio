@@ -21,11 +21,14 @@ body {
 .barra-navegacion a {
     margin: 0.25em;
     padding: 0.25em;
+}
+
+.barra-navegacion a, .contenedor-proyectos article a {
     color: #fff;
     text-decoration: none;
 }
 
-.barra-navegacion a:hover {
+.barra-navegacion a:hover, .contenedor-proyectos article a:hover {
     text-decoration: underline;
 }
 
@@ -34,13 +37,14 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex: 1 1 0;
+    /* flex: 1 1 0; */
 }
 
 .contenedor-proyectos article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-self: stretch;
     max-width: 30%;
     margin: 1%;
     /* padding: 0.5em; */
@@ -51,6 +55,17 @@ body {
     color: #fff;
 }
 
+.contenedor-proyectos article a {
+    margin-left: auto;
+    padding: 0.25em;
+}
+
+.contenedor-proyectos article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .contenedor-proyectos article h3, .contenedor-proyectos article p {
     padding: 0.25em;
 }
@@ -58,12 +73,14 @@ body {
 .contenedor-proyectos article img {
     max-width: 100%;
     height: auto;
+    border-top: 1px solid #fa5a4e;
     border-radius: 0 0 0.5em 0.5em;
 }
 
-.contenedor-proyectos article p {
+
+/* .contenedor-proyectos article p {
     border-bottom: 1px solid #fa5a4e;
-}
+} */
 
 main {
     margin: 1em 10%;
